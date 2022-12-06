@@ -1,0 +1,35 @@
+.simple-todos-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.todos-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+
+  justify-content: center;
+
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.main-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.todos-container {
+  display: flex;
+  flex-direction: column;
+}
+.todo-list-container {
+}

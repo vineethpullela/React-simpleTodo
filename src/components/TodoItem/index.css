@@ -1,0 +1,22 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.todo-name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 2px solid #ff0b37;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}

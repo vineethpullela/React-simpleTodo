@@ -9,14 +9,22 @@
 }
 .todos-container {
   background-color: #ffffff;
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
   display: flex;
 
   justify-content: center;
 
-  padding: 10px;
+  padding: 24px;
   flex-wrap: wrap;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .todos-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
 }
 .main-heading {
   color: #ff8542;
@@ -26,6 +34,13 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
 }
 .todos-container {
   display: flex;

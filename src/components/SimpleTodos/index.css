@@ -30,6 +30,5 @@
 .todos-container {
   display: flex;
   flex-direction: column;
-}
-.todo-list-container {
+  padding: 15px;
 }

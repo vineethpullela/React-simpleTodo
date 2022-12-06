@@ -53,17 +53,16 @@ class SimpleTodos extends Component {
       <div className="simple-todos-container">
         <div className="todos-container">
           <h1 className="main-heading">Simple Todos</h1>
-          <div className="todos-container">
-            <ul className="todo-list-container">
-              {todoList.map(eachtodo => (
-                <ToDoItem
-                  todo={eachtodo}
-                  key={eachtodo.id}
-                  deleteTodo={this.deleteTodo}
-                />
-              ))}
-            </ul>
-          </div>
+
+          <ul className="todo-container">
+            {todoList.map(eachtodo => (
+              <ToDoItem
+                todo={eachtodo}
+                key={eachtodo.id}
+                deleteTodo={this.deleteTodo}
+              />
+            ))}
+          </ul>
         </div>
       </div>
     )
